@@ -1,0 +1,26 @@
+--------------------------------------------------------------------------------
+6/5/2019
+--------------------------------------------------------------------------------
+The rev 2 board only works with 1 of the 2 NPN sensors that I have. Even though
+the indication LED is lighting up the isolation chip is not going low and no
+change is detected on the microcontroller.
+
+For the one NPN sensor that is working, it's built-in LED is acting strange.
+Under normal operation, the light integral to the sensor is off and turns on
+when the sensor (proximity in this case) detects something. However when
+connected to my board, it is on and dim. When the sensors detects something it
+goes to full brightness.
+
+This problem has to do with the protection diode built into the configurable
+input circuit. Originally the circuit was supposed to be used in conjunction
+with an optical isolator but now it uses a newer coupling technology. The diode
+has a forward voltage of 1.25V. This is fine with the optical isolator because
+the current is what triggers the signal to cross the isolation barrier but now
+that voltage is the signal carrier, 1.25V at the input pin of the isolation IC
+is in an undefind logic state, no good.
+
+My solution is a simple one: go back to the optical isolators. I'm going to 
+breadboard two channels with optical isolators to make sure it works how I want
+then update the schematic and board. Overall it will make the unit cost cheaper
+as well.
+--------------------------------------------------------------------------------
