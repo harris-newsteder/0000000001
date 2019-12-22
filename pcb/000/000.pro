@@ -1,4 +1,4 @@
-update=7/15/2019 7:35:53 PM
+update=11/11/2019 9:58:38 PM
 version=1
 last_client=kicad
 [general]
@@ -254,7 +254,7 @@ PageLayoutDescrFile=E:/documents/kicad sheet template.kicad_wks
 PlotDirectoryName=C:/Users/Harris Newsteder/Desktop/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
