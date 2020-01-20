@@ -24,3 +24,11 @@ breadboard two channels with optical isolators to make sure it works how I want
 then update the schematic and board. Overall it will make the unit cost cheaper
 as well.
 --------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+2020-01-18
+--------------------------------------------------------------------------------
+Rev 5 seems to work but when I went to test the amp draw on the high-side with
+my fluke a couple of things blew up. I have no idea why either, going to solder
+another board... then try some more testing. I'll get back to this.
+--------------------------------------------------------------------------------
